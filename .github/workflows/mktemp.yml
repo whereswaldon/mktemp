@@ -1,0 +1,6 @@
+on: [push]
+jobs:
+  mktemp:
+  steps:
+    run: |
+      mktemp
