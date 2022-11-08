@@ -1,6 +1,7 @@
 on: [push]
 jobs:
   mktemp:
-  steps:
-    run: |
-      mktemp
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mktemp
